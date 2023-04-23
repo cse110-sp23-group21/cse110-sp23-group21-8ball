@@ -1,0 +1,23 @@
+- How detailed did you explain your prompt to chatGPT.
+
+I did give it pretty detailed prompts. I made sure to include the vocabulary that I knew and to be explicit of what I wanted. The times I didn't was when I wanted to get something that I didn't know, like an animation feature moving left to right. There was a point when I wanted a bobbing feature and it gave me something decent enough and under my specifications. It was however too slow, but that had been because my input had given it a time for bobbing I thought would look ok but upon viewing the page was too slow for me. I also made sure to prompt it in steps. 
+
+- How much of the code did you change for it to work.
+
+I did not change it too much. The times I changed it the most was when I decided to edit the animation in the css myself because I wasn't sure what I wanted it to look like and I directly exhausted the parameters to give me an animation I was satisfied with.
+
+The second time I changed it significantly was when I could not figure out how to get a button to work without wanting to google it myself. I had it try over and over agian. I guessed what were the terms I wanted and even added some ids to the elements that it guessed into the html file. Finally I asked it a question of how to add the feature I wanted from its normal mode, not its code. It gave me a view of how the js and html interacted and how they viewed each other. Finally I put this together with some of the code that had already been generated into the javascript file to give me a much cleaner and concise code and function. 
+
+Did you find it difficult to use ChatGPT’s code or it was easy for you to navigate? (Elaborate)
+
+I found it very easy. But to be fair I also explicitly told it to write in specific languages so I would know what its output would kind of look like. The only one I was somewhat confused was when it wrote a long javascript function. But most of it was just trying to access the correct element, so I instead changed the description of the function to be directly accessed by the html itself instead of the js trying to correctly guess what button I wanted. It was easy. 
+
+I do want to mention that I used 'shell_gpt'. It was easy enough because this way I could also write my prompts. Most of my workflow this time was something like this:
+
+Write into 'prompt[1-9]'
+`sgpt --code < <prompt[1-9]> >> <index.html|script.js|style.css>`
+
+Then I just opened the file (if it wasn't already openeed) and moved what I wanted or even just left it in as in CSS I was mostly appending to the file anyways. Most of the css was done without problems like this actually. If you will read the prompts I gave it you could see it was mostly me telling it to add something to a specific element/to a group I wanted and seeing what it looked like. Then doing it again. This was my experience for the CSS at least. Similar for the html, but with a little more hiccups as it guessed a little more and added information that would be useful for the other two files to address the elements but I wasn't explicit about adding their ids or anything. Still an overall quick and efficient way of doing this basic material.
+
+Explain your group experience and put it in a doc or a text box in slack and give it to us (Leaders)
+

@@ -91,7 +91,7 @@ button {
 
 /* shake animation */
 .shake {
-  animation: shake 0.3s linear;
+  animation: shake 0.5s linear;
 }
 
 @keyframes shake {
@@ -101,7 +101,7 @@ button {
   100% { transform: translateX(0); }
 }
 
-#output {
+#response-8ball {
   background-color: #1f2833;
   color: silver;
   font-family: "Segoe Script", "Lucida Handwriting", cursive;

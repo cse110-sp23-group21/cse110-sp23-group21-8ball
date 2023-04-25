@@ -1,2 +1,0 @@
-Write javascript that after pressing the button on the form it clears the text entry and prints a string to the page. The string is allowed to be one of the five following message: "yes", "no", "maybe", "ask again", or "In the near future, all will be revealed".
-

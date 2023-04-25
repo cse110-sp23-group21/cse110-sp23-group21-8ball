@@ -1,3 +1,0 @@
-# This is a recreation of what I wrote. 
-Wrtie a file in html that has the title "8 ball". Have it use the file "script.js" for the javascript and "style.css" for the css. In the body have a header "h1" element with the title "8 ball". Give it a description of "Ask your questions to the mystic 8 ball" with a h2 element. 
-Have a form with a text entry as input and a button that clears the input.
